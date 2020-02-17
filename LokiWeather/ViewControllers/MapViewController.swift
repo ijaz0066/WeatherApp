@@ -15,12 +15,6 @@ class MapViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     private var viewModel: WeatherViewModel!
     
-//    fileprivate let locationManager: CLLocationManager = {
-//       let manager = CLLocationManager()
-//       manager.requestWhenInUseAuthorization()
-//       return manager
-//    }()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,8 +29,7 @@ class MapViewController: UIViewController {
             vc.weather = viewModel.weather
             vc.city = viewModel.city
             vc.temprature = viewModel.temprature
-            
-            //Data has to be a variable name in your RandomViewController
+
         }
     }
 }
