@@ -1,0 +1,6 @@
+module Pods_LokiWeather {
+  umbrella header "Pods-LokiWeather-umbrella.h"
+
+  export *
+  module * { export * }
+}
